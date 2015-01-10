@@ -1,0 +1,23 @@
+{
+  "name": "gitmark",
+  "version": "0.0.0",
+  "description": "Builder for gitmark",
+  "author": "Quan Nguyen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mquan/gitmark.git"
+  },
+  "devDependencies": {
+    "gulp": "~3.8.10",
+    "gulp-util": "~3.0.2",
+    "gulp-browserify": "~0.5.1",
+    "gulp-rename": "~1.2.0",
+    "js-git": "0.7.6",
+    "js-github": "~1.0.0"
+  },
+  "main": "./src/gitmark",
+  "engines": {
+    "node": "*"
+  }
+}
