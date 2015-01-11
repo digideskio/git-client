@@ -1,5 +1,3 @@
-var modes = require('js-git/lib/modes');
-
 var getGitRepo = function(githubName, githubToken) {
   // initialize repo
   var repo = {};
